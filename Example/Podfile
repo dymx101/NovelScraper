@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NovelScraper_Example' do
+  pod 'NovelScraper', :path => '../'
+
+  target 'NovelScraper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
