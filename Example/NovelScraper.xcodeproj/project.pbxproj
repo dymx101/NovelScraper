@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		06CCFE378E10B66E03DFE45F /* Pods-NovelScraper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovelScraper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NovelScraper_Example/Pods-NovelScraper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		118ED05B08CAAF3C1A47FF60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		118ED05B08CAAF3C1A47FF60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1BC45D4E48B9D2E8BDF99B89 /* Pods-NovelScraper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovelScraper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NovelScraper_Tests/Pods-NovelScraper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3DCEAD16141007DE69CF20B8 /* Pods-NovelScraper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovelScraper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NovelScraper_Tests/Pods-NovelScraper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NovelScraper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovelScraper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,8 +42,8 @@
 		607FACE51AFB9204008FA782 /* NovelScraper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovelScraper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		831BFB9986B4741C5BC1DC0A /* NovelScraper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NovelScraper.podspec; path = ../NovelScraper.podspec; sourceTree = "<group>"; };
-		A07AA38F482D00C258196441 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		831BFB9986B4741C5BC1DC0A /* NovelScraper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NovelScraper.podspec; path = ../NovelScraper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A07AA38F482D00C258196441 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AEBBB60761B06447E0EF767F /* Pods-NovelScraper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovelScraper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NovelScraper_Example/Pods-NovelScraper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B056A43EBC3C481A7DDA6ECA /* Pods_NovelScraper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovelScraper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C214B5827F247925606268 /* Pods_NovelScraper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovelScraper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -226,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - NovelScraper (0.1.0)
+
+DEPENDENCIES:
+  - NovelScraper (from `../`)
+
+EXTERNAL SOURCES:
+  NovelScraper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NovelScraper: 212e925a469e7d494a19dd9a3ba3c6e581965320
+
+PODFILE CHECKSUM: 45336b412622d07ecea0039a9bf43174552d2884
+
+COCOAPODS: 1.5.3

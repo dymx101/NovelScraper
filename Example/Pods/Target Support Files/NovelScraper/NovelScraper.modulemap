@@ -1,0 +1,6 @@
+framework module NovelScraper {
+  umbrella header "NovelScraper-umbrella.h"
+
+  export *
+  module * { export * }
+}

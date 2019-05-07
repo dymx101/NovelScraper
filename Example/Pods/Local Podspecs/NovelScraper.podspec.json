@@ -1,0 +1,22 @@
+{
+  "name": "NovelScraper",
+  "version": "0.1.0",
+  "summary": "A short description of NovelScraper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dymx101/NovelScraper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dymx101": "dymx101@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dymx101/NovelScraper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NovelScraper/Classes/**/*"
+}
