@@ -105,9 +105,9 @@
 		0658181D3AF75EF096223EADC729B78F /* NovelScraper */ = {
 			isa = PBXGroup;
 			children = (
+				8CF308DF228259A100F82793 /* Classes */,
 				4C3D34E05A70F27EF901C6869A4921FD /* Pod */,
 				0A31EFAE21C891C576EA51DDD4AD1C9E /* Support Files */,
-				8CF308DD228256D500F82793 /* BlinkingLabel.swift */,
 			);
 			name = NovelScraper;
 			path = ../..;
@@ -199,6 +199,14 @@
 				B50B672493C7EEFE761D2ED6A25886B5 /* Products */,
 				1FFAC2886EF431007083D04DDA77C102 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8CF308DF228259A100F82793 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8CF308DD228256D500F82793 /* BlinkingLabel.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		9CDDE41DDAFF83A79FED131FFF5E7B9B /* Development Pods */ = {
