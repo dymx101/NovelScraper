@@ -30,5 +30,6 @@ NovelScraper is available under the MIT license. See the LICENSE file for more i
 
 ## References
 
-https://www.jianshu.com/p/283584683b0b
+https://www.jianshu.com/p/283584683b0b    
+https://code.tutsplus.com/tutorials/creating-your-first-cocoapod--cms-24332    
 
