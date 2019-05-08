@@ -27,3 +27,8 @@ dymx101, dymx101@hotmail.com
 ## License
 
 NovelScraper is available under the MIT license. See the LICENSE file for more info.
+
+## References
+
+https://www.jianshu.com/p/283584683b0b
+

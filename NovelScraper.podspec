@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NovelScraper'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A Novel Scrape Engine'
 
   s.swift_version    = '4.2'
@@ -27,7 +27,7 @@ This library can scrape different novel websites.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NovelScraper/Classes/**/*'
+  s.source_files = 'NovelScraper/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'NovelScraper' => ['NovelScraper/Assets/*.png']
