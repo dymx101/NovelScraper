@@ -1,16 +1,27 @@
 PODS:
-  - NovelScraper (0.1.0)
+  - Alamofire (4.8.2)
+  - Kanna (4.0.3)
+  - NovelScraper (0.1.2):
+    - Alamofire (~> 4.8.2)
+    - Kanna (~> 4.0.3)
 
 DEPENDENCIES:
   - NovelScraper (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kanna
 
 EXTERNAL SOURCES:
   NovelScraper:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NovelScraper: 212e925a469e7d494a19dd9a3ba3c6e581965320
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Kanna: 0ebbdd0e7e3308f0aafbd569e79c8cadc5eb877c
+  NovelScraper: 70aaf2487ac53bae3d9e805656cf795be31bf01f
 
 PODFILE CHECKSUM: 45336b412622d07ecea0039a9bf43174552d2884
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

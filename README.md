@@ -33,3 +33,7 @@ NovelScraper is available under the MIT license. See the LICENSE file for more i
 https://www.jianshu.com/p/283584683b0b    
 https://code.tutsplus.com/tutorials/creating-your-first-cocoapod--cms-24332    
 
+## Website for scrape    
+https://so.88dush.com/search/so.php?q=%E7%9B%97%E5%A2%93&page=2    
+
+

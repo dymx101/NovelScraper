@@ -1,8 +1,12 @@
 {
   "name": "NovelScraper",
-  "version": "0.1.0",
-  "summary": "A short description of NovelScraper.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.2",
+  "summary": "A Novel Scrape Engine",
+  "swift_version": "4.2",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "description": "This library can scrape different novel websites.",
   "homepage": "https://github.com/dymx101/NovelScraper",
   "license": {
     "type": "MIT",
@@ -13,10 +17,15 @@
   },
   "source": {
     "git": "https://github.com/dymx101/NovelScraper.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
-  "platforms": {
-    "ios": "8.0"
-  },
-  "source_files": "NovelScraper/Classes/**/*"
+  "source_files": "NovelScraper/Classes/*.swift",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.8.2"
+    ],
+    "Kanna": [
+      "~> 4.0.3"
+    ]
+  }
 }
