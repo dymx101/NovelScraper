@@ -43,6 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		831BFB9986B4741C5BC1DC0A /* NovelScraper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NovelScraper.podspec; path = ../NovelScraper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CF308FF2283B21100F82793 /* SeachService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeachService.swift; sourceTree = "<group>"; };
+		8CF309002283B21100F82793 /* Novel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Novel.swift; sourceTree = "<group>"; };
+		8CF309022283B21100F82793 /* NovelScraper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovelScraper.swift; sourceTree = "<group>"; };
 		A07AA38F482D00C258196441 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AEBBB60761B06447E0EF767F /* Pods-NovelScraper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovelScraper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NovelScraper_Example/Pods-NovelScraper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B056A43EBC3C481A7DDA6ECA /* Pods_NovelScraper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovelScraper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +96,7 @@
 		607FACD21AFB9204008FA782 /* Example for NovelScraper */ = {
 			isa = PBXGroup;
 			children = (
+				8CF309032283B21100F82793 /* Engine */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -137,6 +141,24 @@
 				A07AA38F482D00C258196441 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8CF309012283B21100F82793 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CF309002283B21100F82793 /* Novel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CF309032283B21100F82793 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				8CF308FF2283B21100F82793 /* SeachService.swift */,
+				8CF309012283B21100F82793 /* Models */,
+				8CF309022283B21100F82793 /* NovelScraper.swift */,
+			);
+			path = Engine;
 			sourceTree = "<group>";
 		};
 		BAD503868BA499E50F6216BC /* Frameworks */ = {

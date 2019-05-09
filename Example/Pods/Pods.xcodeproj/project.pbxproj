@@ -340,7 +340,7 @@
 				8CF308F52283AFA800F82793 /* NovelScraper.swift */,
 			);
 			name = Engine;
-			path = NovelScraper/Classes/Engine;
+			path = Example/NovelScraper/Engine;
 			sourceTree = "<group>";
 		};
 		8CF308F42283AFA800F82793 /* Models */ = {

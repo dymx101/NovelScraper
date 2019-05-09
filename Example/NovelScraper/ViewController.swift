@@ -11,8 +11,14 @@ import NovelScraper
 
 class ViewController: UIViewController {
     
+    let scraper = NovelScraper()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scraper.search(keywords: "盗墓笔记", page: 0) { data, error in
+            
+        }
     }
 }
 

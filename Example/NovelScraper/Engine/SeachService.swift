@@ -14,9 +14,9 @@ protocol SearchService {
 
 class SearchServiceProvider: SearchService {
     
-    let searchUrlFormat = "https://so.88dush.com/search/so.php?q=%s&page=%d"
+    let searchUrlFormat = "https://so.88dush.com/search/so.php?q=%@&page=%d"
     func search(keywords: String, page: Int, completion: @escaping ([Novel]?, Error?) -> Void) {
-        let searchUrl = String(format: searchUrlFormat, keywords, page)
+        let searchUrl = "https://so.88dush.com/search/so.php?q=\(keywords)&page=\(page)"
         
         Alamofire.request(searchUrl).responseString { (response) in
             print(response.value)
