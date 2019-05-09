@@ -7,9 +7,12 @@
 
 import Foundation
 
-class NovelScraper: SearchService {
+public class NovelScraper: SearchService {
     let searchService = SearchServiceProvider()
-    func search(keywords: String, page: Int) {
-        searchService.search(keywords: keywords, page: page)
+    
+    public init() {}
+    
+    public func search(keywords: String, page: Int, completion: @escaping ([Novel]?, Error?) -> Void) {
+        searchService.search(keywords: keywords, page: page, completion: completion)
     }
 }

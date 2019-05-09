@@ -9,17 +9,19 @@ import Foundation
 import Alamofire
 
 protocol SearchService {
-    func search(keywords: String, page: Int)
+    func search(keywords: String, page: Int, completion: @escaping ([Novel]?, Error?) -> Void)
 }
 
 class SearchServiceProvider: SearchService {
     
     let searchUrlFormat = "https://so.88dush.com/search/so.php?q=%s&page=%d"
-    func search(keywords: String, page: Int) {
+    func search(keywords: String, page: Int, completion: @escaping ([Novel]?, Error?) -> Void) {
         let searchUrl = String(format: searchUrlFormat, keywords, page)
         
         Alamofire.request(searchUrl).responseString { (response) in
             print(response.value)
+            
+            completion(nil, nil)
         }
     }
 }
