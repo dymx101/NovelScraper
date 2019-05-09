@@ -33,9 +33,6 @@
 		83DC1E42EFA0BE8822A9B7F3A15DA40E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D916280BAEFCCEA42E0B11C1727FAC /* Foundation.framework */; };
 		8972626447EFF6A0F72729F29CB55605 /* Pods-NovelScraper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C124F706C37F0E5D9F8F721ED55DDAB /* Pods-NovelScraper_Example-dummy.m */; };
 		8AD02C1006D08B12A95A27B20D45F52E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D916280BAEFCCEA42E0B11C1727FAC /* Foundation.framework */; };
-		8CF308F62283AFA800F82793 /* SeachService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF308F32283AFA800F82793 /* SeachService.swift */; };
-		8CF308F72283AFA800F82793 /* NovelScraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF308F52283AFA800F82793 /* NovelScraper.swift */; };
-		8CF308F92283AFCA00F82793 /* Novel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF308F82283AFCA00F82793 /* Novel.swift */; };
 		8D2A6A90A6DDAF75EA52D471258545CC /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9579BF2C8635310125E3DDD2C1E16C8 /* ServerTrustPolicy.swift */; };
 		8E2C66E8F4664E5DDF0055131CF20F21 /* NovelScraper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B2A42E2013777D6E98AE236AE9F575 /* NovelScraper-dummy.m */; };
 		A1EC41966B261DCE460BCDE5124A1DBE /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB60121F95756443A63E134424FD6A1 /* SessionDelegate.swift */; };
@@ -135,9 +132,6 @@
 		7612F0818DBBE6D25A6C02E0C196F797 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/Kanna/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
 		77C4E96951FE42D0F9BC01F94F7D6BA5 /* Kanna.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kanna.xcconfig; sourceTree = "<group>"; };
 		8140EAAF5B78B4CED60249752000180E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		8CF308F32283AFA800F82793 /* SeachService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeachService.swift; sourceTree = "<group>"; };
-		8CF308F52283AFA800F82793 /* NovelScraper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovelScraper.swift; sourceTree = "<group>"; };
-		8CF308F82283AFCA00F82793 /* Novel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Novel.swift; sourceTree = "<group>"; };
 		8DB1106F5CCC9B19725D9A192EEEB5A0 /* Pods-NovelScraper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NovelScraper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8DB60121F95756443A63E134424FD6A1 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		920BE60DA7934AFE531C1F0820CD8FA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -224,7 +218,6 @@
 		1BDFB6D7BD155ED369A124D8AD514B2F /* NovelScraper */ = {
 			isa = PBXGroup;
 			children = (
-				8CF308F22283AFA800F82793 /* Engine */,
 				EF5E5B51B858923A14AF7AB216B4BECD /* Pod */,
 				895567005B3D16A9938DAB12898ACFB4 /* Support Files */,
 			);
@@ -330,25 +323,6 @@
 				5F4DDA4821B52D5EA972004751FE8091 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8CF308F22283AFA800F82793 /* Engine */ = {
-			isa = PBXGroup;
-			children = (
-				8CF308F32283AFA800F82793 /* SeachService.swift */,
-				8CF308F42283AFA800F82793 /* Models */,
-				8CF308F52283AFA800F82793 /* NovelScraper.swift */,
-			);
-			name = Engine;
-			path = Example/NovelScraper/Engine;
-			sourceTree = "<group>";
-		};
-		8CF308F42283AFA800F82793 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				8CF308F82283AFCA00F82793 /* Novel.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		A357465398A6F5C0CCAC5B2D48FB40BD /* Pods */ = {
@@ -690,9 +664,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF308F72283AFA800F82793 /* NovelScraper.swift in Sources */,
-				8CF308F62283AFA800F82793 /* SeachService.swift in Sources */,
-				8CF308F92283AFCA00F82793 /* Novel.swift in Sources */,
 				8E2C66E8F4664E5DDF0055131CF20F21 /* NovelScraper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

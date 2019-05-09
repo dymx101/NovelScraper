@@ -8,6 +8,7 @@
 import Foundation
 
 public class NovelScraper: SearchService {
+    
     let searchService = SearchServiceProvider()
     
     public init() {}
