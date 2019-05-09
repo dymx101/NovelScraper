@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import NovelScraper
+//import NovelScraper
 
 class ViewController: UIViewController {
     

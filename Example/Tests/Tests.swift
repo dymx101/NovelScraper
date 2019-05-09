@@ -1,5 +1,6 @@
 import XCTest
-import NovelScraper
+//import NovelScraper
+//@testable import NovelScraper_Example
 
 class Tests: XCTestCase {
     

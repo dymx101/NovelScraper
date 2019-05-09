@@ -15,6 +15,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8CC93F702283B6BC00CE08C0 /* NovelScraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF309022283B21100F82793 /* NovelScraper.swift */; };
+		8CC93F712283B6BF00CE08C0 /* SeachService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF308FF2283B21100F82793 /* SeachService.swift */; };
+		8CC93F722283B6C300CE08C0 /* Novel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF309002283B21100F82793 /* Novel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -363,6 +366,9 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				8CC93F712283B6BF00CE08C0 /* SeachService.swift in Sources */,
+				8CC93F702283B6BC00CE08C0 /* NovelScraper.swift in Sources */,
+				8CC93F722283B6C300CE08C0 /* Novel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
